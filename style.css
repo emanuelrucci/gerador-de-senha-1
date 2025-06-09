@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --branco:white;
+    --cor-de-fundo:#00FF9C;
+    --fundo-senha:#4300FF;
+    --fundo-texto:#AFDDFF;
+    --borda:#FF9B17;
+    --fonte:'Tinos',sans-serif;
+
+}
+* {
+     font-weight: 400;
+}
+
+body{
+    color:var(--branco);
+    background-color: var(--cor-de-fundo);
+}
+
+.titulo_principal{
+    font-family: var(--fonte);
+    font: size 32px;
+}
+.titulo sgundario{
+    font-size: 24px;
+}
+.conteudo_titulo{
+    text-align: center;
+    margin-top: 80px;
+}
